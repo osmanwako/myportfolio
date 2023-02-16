@@ -102,8 +102,6 @@ This is my first mobile version port folio microverse project
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [coming soon...](https://yourdeployedapplicationlink.com)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -198,7 +196,6 @@ Example:
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/osmanwako)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/osman-wako-08663825a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -242,8 +239,5 @@ I would like to thank Microverse Staff and Partiner.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -7,43 +7,26 @@
 body {
   background-color: white;
   font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: normal;
 }
 
 .common-font-family {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-style: normal;
 }
-
-.wrap-content {
-  max-width: 768px;
-  background-image: url("../images/bodybackground.png");
-  width: 100%;
-  min-height: 100vh;
-  background-size: contain;
-  background-position: 2px 30px;
+main {
+  background-image: url("../images/myportfoliobgi.png");
+  height: 100vh;
+  width: 375px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   background-repeat: no-repeat;
-}
-
-#nav-ham-icon {
-  display: none;
-}
-
-@media only screen and (max-width: 375px) {
-  #nav-ham-icon {
-    display: block;
-  }
-
-  #navbarlist {
-    display: none;
-  }
-
-  .wrap-content {
-    max-width: 375px;
-    max-height: 100vh;
-  }
+  flex-direction: column;
 }
 
 .header-content {
+  max-width: 375px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -57,20 +40,13 @@ body {
   line-height: 20px;
   color: #6070ff;
 }
-
-header nav a {
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
+header span a {
+  text-decoration: none;
 }
 
-.section-content {
-  margin-top: 50px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
+.social-md li {
+  list-style: none;
+  padding: 0;
 }
 
 .myfullname {
@@ -84,15 +60,20 @@ header nav a {
 .social-md {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
-  margin: 0;
+  align-items: flex-end;
   padding: 0;
+  margin: 0;
 }
 
 .social-md a {
   color: #505f79;
+}
+
+.social-md img {
+  height: 20px;
+  width: 20px;
+  padding: 0px;
   margin: 0;
-  padding: 0;
 }
 
 .btn-letcon {
@@ -101,6 +82,7 @@ header nav a {
   line-height: 24px;
   color: #7f8cff;
   background-color: transparent;
+  margin-bottom: 10px;
   border: none;
 }
 
