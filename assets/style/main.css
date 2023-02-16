@@ -14,6 +14,7 @@ body {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-style: normal;
 }
+
 main {
   background-image: url("../images/myportfoliobgi.png");
   height: 100vh;
@@ -40,6 +41,7 @@ main {
   line-height: 20px;
   color: #6070ff;
 }
+
 header span a {
   text-decoration: none;
 }
@@ -72,7 +74,7 @@ header span a {
 .social-md img {
   height: 20px;
   width: 20px;
-  padding: 0px;
+  padding: 0;
   margin: 0;
 }
 
