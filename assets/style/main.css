@@ -10,6 +10,11 @@ body {
   font-weight: normal;
 }
 
+.section-content {
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
 .common-font-family {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-style: normal;
@@ -27,12 +32,11 @@ main {
   flex-direction: column;
 }
 
-.header-content span {
-  margin-right: 20px;
+.header-content {
+  width: 375px;
 }
 
-.header-content {
-  max-width: 375px;
+.headernav-bar {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -69,7 +73,6 @@ header span a {
   justify-content: flex-start;
   align-items: flex-end;
   padding: 0;
-  margin: 0;
 }
 
 .social-md a {
