@@ -23,7 +23,12 @@ main {
   align-items: flex-start;
   justify-content: center;
   background-repeat: no-repeat;
+  background-position: 0 0;
   flex-direction: column;
+}
+
+.header-content span {
+  margin-right: 20px;
 }
 
 .header-content {
